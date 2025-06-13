@@ -1,10 +1,10 @@
 import java.util.Arrays;
 public class SubsetSum{
     public static boolean isSubsetSum(int[]arr,int n,int target){
-        if(n==0){
+        if(target==0){
             return false;
         }
-        if (target==0){
+        if (n==0){
             return true;
         }
         if(arr[n-1]>target){
